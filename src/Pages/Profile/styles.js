@@ -7,7 +7,7 @@ export const TopProfile = styled.div`
   height: 144px;
   background-color: ${({ theme }) => theme.COLORS.BACKGROUND_MOVIES};
 
-  > button {
+  > a {
     padding: 64px 0px 59px 168px;
 
     color: ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};

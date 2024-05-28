@@ -7,13 +7,16 @@ import { IoMdAdd } from "react-icons/io";
 import { IoMdClose } from "react-icons/io";
 import { Tag } from "../../Components/Tag";
 import { Button } from "../../Components/Button";
+import { Link } from "react-router-dom";
 
 export function NewMovie() {
   return (
     <Container>
       <Header />
       <CreateMovie>
-        <ButtonText icon={<FiArrowLeft />} title="Voltar" />
+        <Link to="/">
+          <FiArrowLeft /> voltar
+        </Link>
         <h1>Novo filme</h1>
 
         <main>

@@ -4,6 +4,7 @@ import { Button } from "../../Components/Button";
 import { ButtonText } from "../../Components/ButtonText";
 import { FiMail, FiLock } from "react-icons/fi";
 import ImageSignin from "../../Assets/SignIn.svg"
+import { Link } from "react-router-dom";
 
 export function SignIn() {
   return (
@@ -20,7 +21,9 @@ export function SignIn() {
         </div>
 
         <Button title="Entrar"/>
-        <ButtonText title="Criar conta"/>
+        <Link to="/register">
+          Criar conta
+        </Link>
       </Content>
 
       <img src={ImageSignin} alt="Imagem de um cinema" />

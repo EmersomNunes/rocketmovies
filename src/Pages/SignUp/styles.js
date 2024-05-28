@@ -33,12 +33,12 @@ export const Content = styled.form`
     color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   }
 
-  > button:last-child {
+  > a {
     color: ${({ theme }) => theme.COLORS.PINK};
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 8px;
-    margin-top: 8px;
+    margin-top: 30px;
   }
 `;

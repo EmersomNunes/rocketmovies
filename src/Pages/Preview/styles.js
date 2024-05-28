@@ -12,11 +12,12 @@ export const Container = styled.div`
 export const Content = styled.div`
   padding: 40px 106px 156px 122px;
 
-  button {
+  a {
     color: ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
 
     display: flex;
     align-items: center;
+    gap: 8px;
   }
 
   h1 {

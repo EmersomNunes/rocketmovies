@@ -4,6 +4,7 @@ import { Tag } from "../../Components/Tag"
 import { FiArrowLeft } from "react-icons/fi";
 import { ButtonText } from "../../Components/ButtonText";
 import { GoClock } from "react-icons/go";
+import { Link } from "react-router-dom";
 
 export function Preview() {
   return (
@@ -12,7 +13,9 @@ export function Preview() {
 
       <main>
         <Content>
-          <ButtonText icon={<FiArrowLeft />} title="Voltar" />
+          <Link to="/">
+            <FiArrowLeft /> voltar
+          </Link>
           <h1>Interestellar <span>Stars</span></h1>
 
           <div>

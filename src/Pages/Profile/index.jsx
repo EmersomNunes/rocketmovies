@@ -4,12 +4,15 @@ import { Input } from "../../Components/Input";
 import { VscDeviceCamera } from "react-icons/vsc";
 import { FiArrowLeft, FiUser, FiMail, FiLock } from "react-icons/fi";
 import { Button } from "../../Components/Button"
+import { Link } from "react-router-dom";
 
 export function Profile() {
   return (
     <Container>
       <TopProfile>
-        <ButtonText title="voltar" icon={<FiArrowLeft />}/>
+        <Link to="/">
+          <FiArrowLeft /> voltar
+        </Link>
       </TopProfile>
 
       <EditProfile>

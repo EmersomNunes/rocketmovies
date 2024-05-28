@@ -33,8 +33,10 @@ export const Content = styled.form`
     color: ${({ theme }) => theme.COLORS.BACKGROUND_900};
   }
 
-  > button:last-child {
+  > a {
     color: ${({ theme }) => theme.COLORS.PINK};
     margin-top: 8px;
+    text-align: center;
+    margin-top: 35px;
   }
 `;

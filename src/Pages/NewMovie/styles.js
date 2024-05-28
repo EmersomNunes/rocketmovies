@@ -8,9 +8,10 @@ export const Container = styled.div`
 export const CreateMovie = styled.form`
   padding: 25px 106px 0px 123px;
 
-  > button {
+  > a {
     display: flex;
     align-items: center;
+    gap: 8px;
     color: ${({ theme }) => theme.COLORS.BACKGROUND_BUTTON};
   }
 

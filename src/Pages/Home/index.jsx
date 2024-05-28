@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import { Button } from "../../Components/Button";
 import { Header } from "../../Components/Header";
 import { Movies } from "../../Components/Movies";
@@ -12,7 +13,7 @@ export function Home() {
       <main>
         <div>
           <h1>Meus filmes</h1>
-          <Button icon={<IoAddOutline />} title='Adicionar filme' />
+            <Button icon={<IoAddOutline />} title='Adicionar filme' />
         </div>
 
         <Movies />

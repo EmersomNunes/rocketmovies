@@ -4,6 +4,7 @@ import { Button } from "../../Components/Button";
 import { ButtonText } from "../../Components/ButtonText";
 import { FiMail, FiLock, FiArrowLeft } from "react-icons/fi";
 import ImageSignin from "../../Assets/SignIn.svg"
+import { Link } from "react-router-dom";
 
 export function SignUp() {
   return (
@@ -21,7 +22,9 @@ export function SignUp() {
         </div>
 
         <Button title="Cadastrar"/>
-        <ButtonText icon={<FiArrowLeft />} title="Voltar para o login"/>
+        <Link to="/login">
+          <FiArrowLeft /> voltar para login
+        </Link>
       </Content>
 
       <img src={ImageSignin} alt="Imagem de um cinema" />
