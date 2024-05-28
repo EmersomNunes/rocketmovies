@@ -13,7 +13,9 @@ export function Home() {
       <main>
         <div>
           <h1>Meus filmes</h1>
-            <Button icon={<IoAddOutline />} title='Adicionar filme' />
+            <Link to="newmovie">
+              <IoAddOutline /> Adicionar filme
+            </Link>
         </div>
 
         <Movies />
